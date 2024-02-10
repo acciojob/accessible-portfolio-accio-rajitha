@@ -10,32 +10,37 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-<header>
-	<h1>Portfolio</h1>
-	<nav role ="navigation">
-		<ul>
-			<li><a href ="#home">Home</a></li>
-			<li><a href ="#about">About</a></li>
-			<li><a href ="#projects">Projects</a></li>
-			<li><a href ="#contact">Contact</a></li>
-		</ul>
-		
-	</nav>
-</header>
-	<main>
-		<img src = "" alt="profile image">
-		<section>
-			<h1 role="heaing">Projects</h1>
-			<ul>
-				<li role= listitem>project 1</li>
-				<li role= listitem>project 2</li>
-				<li role= listitem>project 3</li>
-			</ul>
-		</section>
-	</main>
-	<footer>
-		<p>&copy; your portfolio</p>
-	</footer>
+	<header>
+        <h1 role="heading">My Portfolio</h1>
+    </header>
+
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <img src="profile.jpg" alt="My Profile Picture" role="img">
+            <p>Hi, I'm John Doe. I am a passionate web developer.</p>
+        </section>
+
+        <section id="projects">
+            <h2 role="heading">My Projects</h2>
+<ul role="list">
+                <li role="listitem">Project 1: Responsive Website</li>
+                <li role="listitem">Project 2: Accessibility Enhancements</li>
+                <li role="listitem">Project 3: Portfolio Redesign</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>Contact me at john@example.com</p>
+    </footer>
 </body>
 
 </html>
